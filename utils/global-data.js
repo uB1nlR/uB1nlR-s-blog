@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'uB1nlR's blog.';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : '欢迎来到uB1nlR的博客！';
+    : 'Welcome to uB1nlR's blog!';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'uB1nlR 2024';
